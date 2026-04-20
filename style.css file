@@ -1,0 +1,35 @@
+style.css file 
+
+
+ {
+  font-family: monospace;
+  font-size: 13px;
+}
+
+window#waybar {
+  background: rgba(10, 10, 10, 0.95);
+  color: #ffffff;
+}
+
+/* Workspaces dots */
+#w2rkspaces button {
+  padding: 0 0px;
+  margin: 0 0px;
+  color: #555;
+  font-size: 2px;
+}
+
+#workspaces button.active {
+  color: #ffffff;
+}
+
+#workspaces button.focused {
+  color: #ffffff;
+}
+
+/* spacing */
+#network, #bluetooth, #pulseaudio,
+#cpu, #memory, #temperature,
+#battery, #clock {
+  margin: 0 6px;
+}
